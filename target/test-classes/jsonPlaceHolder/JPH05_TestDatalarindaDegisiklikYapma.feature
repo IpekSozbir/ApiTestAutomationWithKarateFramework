@@ -1,6 +1,5 @@
 Feature: JPH05 Kullanici  disaridan kullandigi Json objelerinde degisikilik yapabilmeli
-
-
+  
   Background:
 
     * def baseUrl = 'https://jsonplaceholder.typicode.com'
@@ -9,8 +8,7 @@ Feature: JPH05 Kullanici  disaridan kullandigi Json objelerinde degisikilik yapa
     * def expectedResponseBody = read ("td_expectedResponseBody.json")
 
 
-  Scenario:TC04 disaridan Json Obje  Kullanilabilmeli
-
+  Scenario:TC05 disaridan Json Obje  Kullanilabilmeli
 
     Given url  baseUrl
     And path  pathParams
