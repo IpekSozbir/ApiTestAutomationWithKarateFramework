@@ -1,5 +1,5 @@
 Feature: JPH05 Kullanici  disaridan kullandigi Json objelerinde degisikilik yapabilmeli
-  
+
   Background:
 
     * def baseUrl = 'https://jsonplaceholder.typicode.com'
