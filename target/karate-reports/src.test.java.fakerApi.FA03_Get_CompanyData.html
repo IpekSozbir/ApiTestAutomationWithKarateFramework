@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script type="text/javascript" src="res/Resemble.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.identify("d5ddd681-ca22-4485-9c5f-9ec13eac0def",{name:"muratsozbir"});
+    posthog.capture("report_feature",{karate_version:"1.3.1",karate_meta:null});
+  }
+});
+</script>
+
+    <title>src.test.java.fakerApi.FA03_Get_CompanyData</title>
+  </head>
+  <body>
+    <div id="root-container">
+      <div id="leftnav">
+        
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-env">
+    <div></div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>
+  <div id="nav-date">
+    <div>2025-08-01 12:14:26 AM</div>
+  </div>
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:3]"><span>[1:3]</span> <span>TC03 Get request&#39;e donen response&#39;in beklenilen ozelliklerde olmasi gerekir</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/fakerApi/FA03_Get_CompanyData.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">FA03 Kullanici Get request sonucu donen response test eder</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:3]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:3]</span>
+                <span class="scenario-name">TC03 Get request&#39;e donen response&#39;in beklenilen ozelliklerde olmasi gerekir</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>907</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref passed">5</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://fakerapi.it/api/v1/companies&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5">00:14:25.972 Running in environment: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref passed">6</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param _quantity = 1</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref passed">7</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">875</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.7">00:14:26.105 request:
+1 &gt; GET https://fakerapi.it/api/v1/companies?_quantity=1
+1 &gt; Host: fakerapi.it
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.26)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+00:14:26.841 response time in milliseconds: 733
+1 &lt; 200
+1 &lt; Server: nginx
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Vary: Accept-Encoding
+1 &lt; X-Powered-By: PHP/8.3.8
+1 &lt; Cache-Control: no-cache, private
+1 &lt; Date: Thu, 31 Jul 2025 21:14:28 GMT
+1 &lt; X-RateLimit-Limit: 60
+1 &lt; X-RateLimit-Remaining: 58
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; X-UA-Compatible: IE=Edge,chrome=1
+{&quot;status&quot;:&quot;OK&quot;,&quot;code&quot;:200,&quot;locale&quot;:&quot;en_US&quot;,&quot;seed&quot;:null,&quot;total&quot;:1,&quot;data&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;Funk-Daniel&quot;,&quot;email&quot;:&quot;sauer.litzy@kautzer.com&quot;,&quot;vat&quot;:&quot;4786520326&quot;,&quot;phone&quot;:&quot;+16092164880&quot;,&quot;country&quot;:&quot;Costa Rica&quot;,&quot;addresses&quot;:[{&quot;id&quot;:1,&quot;street&quot;:&quot;754 Kunze Dam&quot;,&quot;streetName&quot;:&quot;Fisher Alley&quot;,&quot;buildingNumber&quot;:&quot;650&quot;,&quot;city&quot;:&quot;New Yvetteburgh&quot;,&quot;zipcode&quot;:&quot;39146-5406&quot;,&quot;country&quot;:&quot;Moldova&quot;,&quot;country_code&quot;:&quot;MD&quot;,&quot;latitude&quot;:71.121416,&quot;longitude&quot;:-89.89414},{&quot;id&quot;:1,&quot;street&quot;:&quot;8525 Jensen Springs&quot;,&quot;streetName&quot;:&quot;Rice Walks&quot;,&quot;buildingNumber&quot;:&quot;8697&quot;,&quot;city&quot;:&quot;Port Mckenzietown&quot;,&quot;zipcode&quot;:&quot;77618&quot;,&quot;country&quot;:&quot;Austria&quot;,&quot;country_code&quot;:&quot;AT&quot;,&quot;latitude&quot;:-87.116656,&quot;longitude&quot;:-151.60297},{&quot;id&quot;:1,&quot;street&quot;:&quot;1848 Pablo Mountains&quot;,&quot;streetName&quot;:&quot;Bria Courts&quot;,&quot;buildingNumber&quot;:&quot;1080&quot;,&quot;city&quot;:&quot;Hintzchester&quot;,&quot;zipcode&quot;:&quot;56919&quot;,&quot;country&quot;:&quot;Congo - Kinshasa&quot;,&quot;country_code&quot;:&quot;CD&quot;,&quot;latitude&quot;:-83.670802,&quot;longitude&quot;:24.228554},{&quot;id&quot;:1,&quot;street&quot;:&quot;766 Hill Ridge Suite 986&quot;,&quot;streetName&quot;:&quot;Von Brook&quot;,&quot;buildingNumber&quot;:&quot;93503&quot;,&quot;city&quot;:&quot;Port Aarontown&quot;,&quot;zipcode&quot;:&quot;53965&quot;,&quot;country&quot;:&quot;Comoros&quot;,&quot;country_code&quot;:&quot;KM&quot;,&quot;latitude&quot;:-43.206807,&quot;longitude&quot;:-150.021285}],&quot;website&quot;:&quot;http:\/\/schimmel.biz&quot;,&quot;image&quot;:&quot;http:\/\/placeimg.com\/640\/480\/people&quot;,&quot;contact&quot;:{&quot;id&quot;:1,&quot;firstname&quot;:&quot;Jarrett&quot;,&quot;lastname&quot;:&quot;Rolfson&quot;,&quot;email&quot;:&quot;walker.eladio@muller.com&quot;,&quot;phone&quot;:&quot;+19299831470&quot;,&quot;birthday&quot;:&quot;2007-05-22&quot;,&quot;gender&quot;:&quot;male&quot;,&quot;address&quot;:{&quot;id&quot;:1,&quot;street&quot;:&quot;892 Ottis Garden&quot;,&quot;streetName&quot;:&quot;Lubowitz Coves&quot;,&quot;buildingNumber&quot;:&quot;576&quot;,&quot;city&quot;:&quot;Beierfurt&quot;,&quot;zipcode&quot;:&quot;07101&quot;,&quot;country&quot;:&quot;Madagascar&quot;,&quot;country_code&quot;:&quot;MG&quot;,&quot;latitude&quot;:54.084639,&quot;longitude&quot;:160.460695},&quot;website&quot;:&quot;http:\/\/zulauf.com&quot;,&quot;image&quot;:&quot;http:\/\/placeimg.com\/640\/480\/people&quot;}}]}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref passed">8</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">6</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.9">00:14:26.871 [print] {
+  &quot;status&quot;: &quot;OK&quot;,
+  &quot;code&quot;: 200,
+  &quot;locale&quot;: &quot;en_US&quot;,
+  &quot;seed&quot;: null,
+  &quot;total&quot;: 1,
+  &quot;data&quot;: [
+    {
+      &quot;id&quot;: 1,
+      &quot;name&quot;: &quot;Funk-Daniel&quot;,
+      &quot;email&quot;: &quot;sauer.litzy@kautzer.com&quot;,
+      &quot;vat&quot;: &quot;4786520326&quot;,
+      &quot;phone&quot;: &quot;+16092164880&quot;,
+      &quot;country&quot;: &quot;Costa Rica&quot;,
+      &quot;addresses&quot;: [
+        {
+          &quot;id&quot;: 1,
+          &quot;street&quot;: &quot;754 Kunze Dam&quot;,
+          &quot;streetName&quot;: &quot;Fisher Alley&quot;,
+          &quot;buildingNumber&quot;: &quot;650&quot;,
+          &quot;city&quot;: &quot;New Yvetteburgh&quot;,
+          &quot;zipcode&quot;: &quot;39146-5406&quot;,
+          &quot;country&quot;: &quot;Moldova&quot;,
+          &quot;country_code&quot;: &quot;MD&quot;,
+          &quot;latitude&quot;: 71.121416,
+          &quot;longitude&quot;: -89.89414
+        },
+        {
+          &quot;id&quot;: 1,
+          &quot;street&quot;: &quot;8525 Jensen Springs&quot;,
+          &quot;streetName&quot;: &quot;Rice Walks&quot;,
+          &quot;buildingNumber&quot;: &quot;8697&quot;,
+          &quot;city&quot;: &quot;Port Mckenzietown&quot;,
+          &quot;zipcode&quot;: &quot;77618&quot;,
+          &quot;country&quot;: &quot;Austria&quot;,
+          &quot;country_code&quot;: &quot;AT&quot;,
+          &quot;latitude&quot;: -87.116656,
+          &quot;longitude&quot;: -151.60297
+        },
+        {
+          &quot;id&quot;: 1,
+          &quot;street&quot;: &quot;1848 Pablo Mountains&quot;,
+          &quot;streetName&quot;: &quot;Bria Courts&quot;,
+          &quot;buildingNumber&quot;: &quot;1080&quot;,
+          &quot;city&quot;: &quot;Hintzchester&quot;,
+          &quot;zipcode&quot;: &quot;56919&quot;,
+          &quot;country&quot;: &quot;Congo - Kinshasa&quot;,
+          &quot;country_code&quot;: &quot;CD&quot;,
+          &quot;latitude&quot;: -83.670802,
+          &quot;longitude&quot;: 24.228554
+        },
+        {
+          &quot;id&quot;: 1,
+          &quot;street&quot;: &quot;766 Hill Ridge Suite 986&quot;,
+          &quot;streetName&quot;: &quot;Von Brook&quot;,
+          &quot;buildingNumber&quot;: &quot;93503&quot;,
+          &quot;city&quot;: &quot;Port Aarontown&quot;,
+          &quot;zipcode&quot;: &quot;53965&quot;,
+          &quot;country&quot;: &quot;Comoros&quot;,
+          &quot;country_code&quot;: &quot;KM&quot;,
+          &quot;latitude&quot;: -43.206807,
+          &quot;longitude&quot;: -150.021285
+        }
+      ],
+      &quot;website&quot;: &quot;http://schimmel.biz&quot;,
+      &quot;image&quot;: &quot;http://placeimg.com/640/480/people&quot;,
+      &quot;contact&quot;: {
+        &quot;id&quot;: 1,
+        &quot;firstname&quot;: &quot;Jarrett&quot;,
+        &quot;lastname&quot;: &quot;Rolfson&quot;,
+        &quot;email&quot;: &quot;walker.eladio@muller.com&quot;,
+        &quot;phone&quot;: &quot;+19299831470&quot;,
+        &quot;birthday&quot;: &quot;2007-05-22&quot;,
+        &quot;gender&quot;: &quot;male&quot;,
+        &quot;address&quot;: {
+          &quot;id&quot;: 1,
+          &quot;street&quot;: &quot;892 Ottis Garden&quot;,
+          &quot;streetName&quot;: &quot;Lubowitz Coves&quot;,
+          &quot;buildingNumber&quot;: &quot;576&quot;,
+          &quot;city&quot;: &quot;Beierfurt&quot;,
+          &quot;zipcode&quot;: &quot;07101&quot;,
+          &quot;country&quot;: &quot;Madagascar&quot;,
+          &quot;country_code&quot;: &quot;MG&quot;,
+          &quot;latitude&quot;: 54.084639,
+          &quot;longitude&quot;: 160.460695
+        },
+        &quot;website&quot;: &quot;http://zulauf.com&quot;,
+        &quot;image&quot;: &quot;http://placeimg.com/640/480/people&quot;
+      }
+    }
+  ]
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match responseStatus ==200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">7</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>assert responseHeaders[&#39;Content-Type&#39;][0] == &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">5</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>assert  response.data[0].name.length &gt; 0</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.data[0].email contains &#39;@&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">9</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># sadece rakamlarin varligini kontrol etmek icin &#39;#regex ^[0-9]+$&#39; bunu kullanirdik ama telefon numaralarinda</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#  alan kodu + ve - kullanildigi icin bunlarin bulunmasini ignore etmeliyiz</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.16">
+      <div class="step-ref passed">16</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.data[0].phone == &#39;#regex ^[0-9+\\-]+$&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
