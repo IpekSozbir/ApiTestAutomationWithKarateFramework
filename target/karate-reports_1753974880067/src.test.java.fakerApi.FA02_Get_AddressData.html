@@ -27,7 +27,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 });
 </script>
 
-    <title>src.test.java.jsonPlaceHolder.JPH01_Get__ResponseAssertions</title>
+    <title>src.test.java.fakerApi.FA02_Get_AddressData</title>
   </head>
   <body>
     <div id="root-container">
@@ -50,7 +50,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
     <div>Scenarios</div>
   </div>
   <div id="nav-date">
-    <div>2025-07-30 10:23:16 PM</div>
+    <div>2025-07-31 06:12:41 PM</div>
   </div>
 </div>
 
@@ -65,8 +65,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
           <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
           <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
           <span class="feature-label">Feature:</span>
-          <span class="feature-path">src/test/java/jsonPlaceHolder/JPH01_Get__ResponseAssertions.feature</span><span class="feature-label">|</span>
-          <span class="feature-name">JPH01 Kullanici Get request sonucu donen response test eder</span>
+          <span class="feature-path">src/test/java/fakerApi/FA02_Get_AddressData.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">FA02 Kullanici Get request sonucu donen response test eder</span>
           <span class="feature-description"></span>
         </div>
         <div class="scenario">
@@ -82,7 +82,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>765</span>
+              <span>ms:</span>&nbsp;<span>1122</span>
             </div>
           </div>
           
@@ -92,11 +92,11 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="0.4">
-      <div class="step-ref passed">4</div>
+    <div class="step-container" id="0.5">
+      <div class="step-ref passed">5</div>
       
       <div class="step-cell passed">
-        <span>Given</span>&nbsp;<span>url &#39;https://jsonplaceholder.typicode.com&#39;</span>
+        <span>Given</span>&nbsp;<span>url &#39;https://fakerapi.it/api/v1/addresses&#39;</span>
       </div>
     </div>
     <div class="time-cell passed">1</div>
@@ -108,7 +108,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.4">22:23:15.476 Running in environment: null 
+  <div class="preformatted" data-parent="0.5">18:12:40.415 Running in environment: null 
 </div>   
 
   
@@ -121,14 +121,14 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="0.5">
-      <div class="step-ref passed">5</div>
+    <div class="step-container" id="0.6">
+      <div class="step-ref passed">6</div>
       
       <div class="step-cell passed">
-        <span>And</span>&nbsp;<span>path &quot;/posts/44&quot;</span>
+        <span>And</span>&nbsp;<span>param _quantity = 1</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -149,14 +149,14 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="0.6">
-      <div class="step-ref passed">6</div>
+    <div class="step-container" id="0.7">
+      <div class="step-ref passed">7</div>
       
       <div class="step-cell passed">
         <span>When</span>&nbsp;<span>method GET</span>
       </div>
     </div>
-    <div class="time-cell passed">751</div>
+    <div class="time-cell passed">1100</div>
   </div>
 
    
@@ -165,47 +165,29 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.6">22:23:15.628 request:
-1 &gt; GET https://jsonplaceholder.typicode.com/posts/44
-1 &gt; Host: jsonplaceholder.typicode.com
+  <div class="preformatted" data-parent="0.7">18:12:40.574 request:
+1 &gt; GET https://fakerapi.it/api/v1/addresses?_quantity=1
+1 &gt; Host: fakerapi.it
 1 &gt; Connection: Keep-Alive
 1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.26)
 1 &gt; Accept-Encoding: gzip,deflate
 
 
-22:23:16.233 response time in milliseconds: 604
+18:12:41.523 response time in milliseconds: 947
 1 &lt; 200
-1 &lt; Date: Wed, 30 Jul 2025 19:23:16 GMT
-1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Server: nginx
+1 &lt; Content-Type: application/json
 1 &lt; Transfer-Encoding: chunked
 1 &lt; Connection: keep-alive
-1 &lt; access-control-allow-credentials: true
-1 &lt; Cache-Control: max-age=43200
-1 &lt; etag: W/&quot;f9-qeEI4xhxJyQd+h1AmBEbRcZU5LE&quot;
-1 &lt; expires: -1
-1 &lt; nel: {&quot;report_to&quot;:&quot;heroku-nel&quot;,&quot;response_headers&quot;:[&quot;Via&quot;],&quot;max_age&quot;:3600,&quot;success_fraction&quot;:0.01,&quot;failure_fraction&quot;:0.1}
-1 &lt; pragma: no-cache
-1 &lt; report-to: {&quot;group&quot;:&quot;heroku-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https://nel.heroku.com/reports?s=DMIXmzMrisJ%2FY2zW54ZleA%2F7CNakrlYh2uVXAtf67p4%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1753815810&quot;}],&quot;max_age&quot;:3600}
-1 &lt; reporting-endpoints: heroku-nel=&quot;https://nel.heroku.com/reports?s=DMIXmzMrisJ%2FY2zW54ZleA%2F7CNakrlYh2uVXAtf67p4%3D&amp;sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&amp;ts=1753815810&quot;
-1 &lt; vary: Origin, Accept-Encoding
-1 &lt; via: 2.0 heroku-router
-1 &lt; x-content-type-options: nosniff
-1 &lt; x-powered-by: Express
-1 &lt; x-ratelimit-limit: 1000
-1 &lt; x-ratelimit-remaining: 999
-1 &lt; x-ratelimit-reset: 1753815846
-1 &lt; Age: 1635
-1 &lt; cf-cache-status: HIT
-1 &lt; Server: cloudflare
-1 &lt; CF-RAY: 96773ac2cd87e321-IST
-1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400
-1 &lt; server-timing: cfL4;desc=&quot;?proto=TCP&amp;rtt=2470&amp;min_rtt=2208&amp;rtt_var=680&amp;sent=7&amp;recv=9&amp;lost=0&amp;retrans=0&amp;sent_bytes=3116&amp;recv_bytes=700&amp;delivery_rate=1831903&amp;cwnd=252&amp;unsent_bytes=0&amp;cid=c0c6bb3f5ca7c3a3&amp;ts=184&amp;x=0&quot;
-{
-  &quot;userId&quot;: 5,
-  &quot;id&quot;: 44,
-  &quot;title&quot;: &quot;optio dolor molestias sit&quot;,
-  &quot;body&quot;: &quot;temporibus est consectetur dolore\net libero debitis vel velit laboriosam quia\nipsum quibusdam qui itaque fuga rem aut\nea et iure quam sed maxime ut distinctio quae&quot;
-}
+1 &lt; Vary: Accept-Encoding
+1 &lt; X-Powered-By: PHP/8.3.8
+1 &lt; Cache-Control: no-cache, private
+1 &lt; Date: Thu, 31 Jul 2025 15:12:41 GMT
+1 &lt; X-RateLimit-Limit: 60
+1 &lt; X-RateLimit-Remaining: 58
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; X-UA-Compatible: IE=Edge,chrome=1
+{&quot;status&quot;:&quot;OK&quot;,&quot;code&quot;:200,&quot;locale&quot;:&quot;en_US&quot;,&quot;seed&quot;:null,&quot;total&quot;:1,&quot;data&quot;:[{&quot;id&quot;:1,&quot;street&quot;:&quot;9922 Sanford Inlet&quot;,&quot;streetName&quot;:&quot;Faustino Overpass&quot;,&quot;buildingNumber&quot;:&quot;215&quot;,&quot;city&quot;:&quot;Alishaburgh&quot;,&quot;zipcode&quot;:&quot;60596-2718&quot;,&quot;country&quot;:&quot;Seychelles&quot;,&quot;country_code&quot;:&quot;SC&quot;,&quot;latitude&quot;:-12.64007,&quot;longitude&quot;:78.583555}]}
 
 </div>   
 
@@ -219,8 +201,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="0.7">
-      <div class="step-ref passed">7</div>
+    <div class="step-container" id="0.8">
+      <div class="step-ref passed">8</div>
       
       <div class="step-cell passed">
         <span>Then</span>&nbsp;<span>status 200</span>
@@ -247,42 +229,14 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="0.8">
-      <div class="step-ref passed">8</div>
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
       
       <div class="step-cell passed">
         <span>And</span>&nbsp;<span>match responseStatus == 200</span>
       </div>
     </div>
-    <div class="time-cell passed">6</div>
-  </div>
-
-   
-  
-  
-
-  
-
-     
-
-  
-
-</div>
-</div>
-          <div><div>
-  
-
-  
-
-  <div class="step-row">
-    <div class="step-container" id="0.9">
-      <div class="step-ref passed">9</div>
-      
-      <div class="step-cell passed">
-        <span>And</span>&nbsp;<span>assert responseTime &lt; 1000</span>
-      </div>
-    </div>
-    <div class="time-cell passed">3</div>
+    <div class="time-cell passed">5</div>
   </div>
 
    
@@ -307,10 +261,10 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <div class="step-ref passed">10</div>
       
       <div class="step-cell passed">
-        <span>And</span>&nbsp;<span>assert responseHeaders[&#39;Content-Type&#39;][0] == &#39;application/json; charset=utf-8&#39;</span>
+        <span>And</span>&nbsp;<span>assert  responseHeaders[&#39;Content-Type&#39;][0] == &#39;application/json&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">5</div>
+    <div class="time-cell passed">6</div>
   </div>
 
    
@@ -335,10 +289,10 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <div class="step-ref passed">11</div>
       
       <div class="step-cell passed">
-        <span>And</span>&nbsp;<span>assert response.userId == 5</span>
+        <span>And</span>&nbsp;<span>assert  response.data[0].city.length &gt; 0</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -356,17 +310,24 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
           <div><div>
   
 
-  
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#Test datasi oldugu  icin country alani surekli degişiyor. Bu yuzden string  data icerip icermedigini kontrol ettim</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
 
   <div class="step-row">
-    <div class="step-container" id="0.12">
-      <div class="step-ref passed">12</div>
+    <div class="step-container" id="0.13">
+      <div class="step-ref passed">13</div>
       
       <div class="step-cell passed">
-        <span>And</span>&nbsp;<span>assert response.id == 44</span>
+        <span>And</span>&nbsp;<span>match response.data[0] contains { country: &#39;#string&#39; }</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">7</div>
   </div>
 
    
