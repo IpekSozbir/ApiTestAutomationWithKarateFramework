@@ -36,4 +36,4 @@ Feature: Kullanici farkli verilerle coklu POST request gonderir
     Examples:
       | firstname | lastname | totalprice | depositpaid | checkin    | checkout   | additionalneeds |
       | Ipek      | Sozbir   | 500        | false       | 2026-01-10 | 2026-01-20 | wi-fi           |
-      | Volga     | Sozbir   | 750        | true        | 2026-02-01 | 2026-02-10 | breakfast       |
+      | Volga     | Sozbir   | 750        | true        | 2026-01-10 | 2026-01-20 | breakfast       |
