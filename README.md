@@ -1,3 +1,4 @@
+# ApiTestAutomationWithKarateFramework
 Bu repository, **Karate Framework** kullanılarak geliştirilmiş, **REST API test otomasyonu** çalışmalarını içeren bir projedir.  
 Proje, **Behavior Driven Development (BDD)** yaklaşımı ile API testlerini herhangi bir Java "step definition" koduna ihtiyaç duymadan, Karate'nin kendi DSL (Domain Specific Language) yapısı ile gerçekleştirmektedir.
 
@@ -76,3 +77,60 @@ Feature: Karate User API Test
 Bu dosya, testlerin hangi URL'e gideceğini ve hangi global değişkenleri kullanacağını belirler. Örnek içeriği:
 
 ```
+
+function fn() {
+  var config = {
+    baseUrl: '[https://api.example.com](https://api.example.com)',
+    myVarName: 'someValue'
+  };
+  return config;
+}
+```
+
+---
+
+## :rocket: Projeyi Çalıştırma
+### Ön Gereksinimler
+* Java JDK 11 veya üzeri
+* Maven
+* IDE (IntelliJ IDEA veya VS Code)
+
+### Kurulum ve Çalıştırma
+
+Repository'i klonlayın:
+```
+git clone https://github.com/kilicCeren/ApiTestAutomationWithKarateFramework.git)
+cd ApiTestAutomationWithKarateFramework
+```
+### Testleri çalıştırın:
+```
+mvn clean test
+```
+
+### Belirli bir testi veya dizini çalıştırmak için:
+```
+mvn test -Dkarate.options="classpath:examples/users"
+```
+
+---
+
+## :bar_chart: Test Sonuçları ve Raporlama
+* Karate, testler bittiğinde otomatik olarak görsel ve detaylı HTML raporları üretir.
+* HTML Raporu: target/karate-reports/karate-summary.html Bu rapor üzerinden HTTP isteklerini, dönen response gövdelerini ve geçen/kalan testleri görebilirsiniz.
+
+### Projenin Sağladıkları
+* Java kodu yazmadan güçlü API testleri
+* Native JSON desteği ile kolay veri doğrulaması
+* Hızlı geliştirme ve düşük bakım maliyeti
+* Dahili raporlama sistemi
+
+---
+
+## :pushpin: Notlar
+Bu proje Karate Framework yeteneklerini sergilemek amacıyla hazırlanmıştır.
+UI otomasyonu içermez, tamamen API odaklıdır.
+
+---
+
+## :memo: Lisans
+Bu proje kişisel eğitim ve portföy amaçlıdır.
