@@ -99,7 +99,7 @@ function fn() {
 
 Repository'i klonlayın:
 ```
-git clone https://github.com/kilicCeren/ApiTestAutomationWithKarateFramework.git)
+git clone https://github.com/IpekSozbir/ApiTestAutomationWithKarateFramework.git)
 cd ApiTestAutomationWithKarateFramework
 ```
 ### Testleri çalıştırın:
